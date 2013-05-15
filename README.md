@@ -12,11 +12,11 @@ This utility was written on a Mac, and will work with the bash "say" command tha
 
 <h2>How to use:</h2>
 <li>
-	<ol>Look over the audio_file file and see if there is anything you would like to remove or add to the list</ol>
-	<ol>Edit the <code>command_list</code> variable within create_response_sounds.py file (line 4) with the absolute path to audio_file</ol>
-	<ol>Edit the <code>save_path</code> variable to point to the absolute path where you would like the files saved (line 5)</ol>
-	<ol>Change the file extension or text-to-speech voice if you like (or if your system does not have the default "Lee").</ol>
-	<ol>Finally, open a terminal, navigate to the directory where create_response_sounds.py is located, and run "python create_response_sounds.py"</ol>
+	<ol>1. Look over the audio_file file and see if there is anything you would like to remove or add to the list</ol>
+	<ol>2. Edit the <code>command_list</code> variable within create_response_sounds.py file (line 4) with the absolute path to audio_file</ol>
+	<ol>3. Edit the <code>save_path</code> variable to point to the absolute path where you would like the files saved (line 5)</ol>
+	<ol>4. Change the file extension or text-to-speech voice if you like (or if your system does not have the default "Lee").</ol>
+	<ol>5. Finally, open a terminal, navigate to the directory where create_response_sounds.py is located, and run "python create_response_sounds.py"</ol>
 </li>
 
 <b>Note: </b> The script does some rough checking to see if file exists, so you shouldn't have a problem with duplicate audio segments.
